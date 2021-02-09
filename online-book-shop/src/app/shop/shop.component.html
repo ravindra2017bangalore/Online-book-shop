@@ -1,0 +1,8 @@
+<div>
+  <div style="width:260px;" *ngFor="let book of books">
+    <img style="height: 280px; width: 200px;" [src]="book.url" />
+    <h5>{{book.bookName}}</h5>
+    <p>{{book.author}}</p>
+    <span>{{book.price}}</span>
+  </div>
+</div>
